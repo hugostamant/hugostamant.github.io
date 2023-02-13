@@ -2210,24 +2210,41 @@ input, select, textarea {
 
 /* List */
 
+	.my-list {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+  
+	.my-list li {
+		margin: 0;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+
 	ol {
 		list-style: decimal;
 		margin: 0 0 2.25em 0;
 		padding-left: 1.25em;
+
 	}
 
 		ol li {
-			padding-left: 0.25em;
+			padding-left: 0.5em;
 		}
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2.25em 0;
+		margin: 0;
 		padding-left: 1em;
+		padding: 0;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 10px;
 		}
 
 		ul.alt {
@@ -2741,19 +2758,19 @@ input, select, textarea {
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
+				margin: 0 auto 1.5em auto;
 				width: 8em;
 			}
 
 			#header > header h1 {
-				font-size: 1.75em;
+				font-size: 2.00em;
 				margin: 0;
 			}
 
 			#header > header p {
 				color: #d2f2e9;
 				font-style: italic;
-				margin: 1em 0 0 0;
+				margin: 0.75em 0 0 0;
 			}
 
 		#header > footer {
@@ -2802,7 +2819,7 @@ input, select, textarea {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						padding: 0.65em 0;
 						text-decoration: none;
 					}
 
