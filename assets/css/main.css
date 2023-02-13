@@ -2210,17 +2210,6 @@ input, select, textarea {
 
 /* List */
 
-	.my-list {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
-  
-	.my-list li {
-		margin: 0;
-		padding: 0;
-		margin-bottom: 10px;
-	}
 
 	ol {
 		list-style: decimal;
